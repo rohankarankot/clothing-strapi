@@ -400,7 +400,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     > &
       Schema.Attribute.Private;
     name: Schema.Attribute.String;
-    newarrival: Schema.Attribute.Boolean;
+    newarrival: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     Price: Schema.Attribute.Component<'product.price', false>;
     publishedAt: Schema.Attribute.DateTime;
     sku: Schema.Attribute.String;

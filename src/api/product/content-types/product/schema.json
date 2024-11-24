@@ -40,7 +40,8 @@
       ]
     },
     "newarrival": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     },
     "gender": {
       "type": "enumeration",

@@ -29,7 +29,8 @@ export interface ProductColor extends Struct.ComponentSchema {
   };
   attributes: {
     color: Schema.Attribute.String;
-    hex: Schema.Attribute.String;
+    hex: Schema.Attribute.String &
+      Schema.Attribute.CustomField<'plugin::color-picker.color'>;
   };
 }
 
