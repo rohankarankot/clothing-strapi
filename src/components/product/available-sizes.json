@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_product_available_sizes",
+  "info": {
+    "displayName": "Available Sizes",
+    "icon": "scissors",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "size": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "discountedPrice": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "color": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.color"
+    },
+    "review": {
+      "displayName": "Review",
+      "type": "component",
+      "repeatable": true,
+      "component": "product.review"
+    }
+  }
+}

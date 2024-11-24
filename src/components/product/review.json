@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_product_reviews",
+  "info": {
+    "displayName": "Review",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "rating": {
+      "type": "decimal"
+    }
+  }
+}

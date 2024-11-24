@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vendors",
+  "info": {
+    "singularName": "vendor",
+    "pluralName": "vendors",
+    "displayName": "vendor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vendor": {
+      "type": "string"
+    },
+    "vendorId": {
+      "type": "integer"
+    },
+    "address": {
+      "type": "text"
+    }
+  }
+}

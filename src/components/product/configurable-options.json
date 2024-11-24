@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_product_configurable_options",
+  "info": {
+    "displayName": "Configurable Options",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "isFeatured": {
+      "type": "boolean"
+    },
+    "availableSizes": {
+      "displayName": "Available Sizes",
+      "type": "component",
+      "repeatable": false,
+      "component": "product.available-sizes"
+    }
+  }
+}
